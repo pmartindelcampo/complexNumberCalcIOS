@@ -14,6 +14,7 @@
 		AE9B8C01217F789200223E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9B8BFF217F789200223E38 /* LaunchScreen.storyboard */; };
 		AE9B8C0C217F789200223E38 /* CalcComplexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B8C0B217F789200223E38 /* CalcComplexTests.swift */; };
 		AE9B8C17217F789200223E38 /* CalcComplexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B8C16217F789200223E38 /* CalcComplexUITests.swift */; };
+		AE9B8C25217F799500223E38 /* ComplexNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B8C24217F799500223E38 /* ComplexNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AE9B8C12217F789200223E38 /* CalcComplexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcComplexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9B8C16217F789200223E38 /* CalcComplexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcComplexUITests.swift; sourceTree = "<group>"; };
 		AE9B8C18217F789200223E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9B8C24217F799500223E38 /* ComplexNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		AE9B8BEA217F789000223E38 = {
 			isa = PBXGroup;
 			children = (
+				AE9B8C24217F799500223E38 /* ComplexNumber.swift */,
 				AE9B8BF5217F789000223E38 /* CalcComplex */,
 				AE9B8C0A217F789200223E38 /* CalcComplexTests */,
 				AE9B8C15217F789200223E38 /* CalcComplexUITests */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9B8BF9217F789000223E38 /* ViewController.swift in Sources */,
+				AE9B8C25217F799500223E38 /* ComplexNumber.swift in Sources */,
 				AE9B8BF7217F789000223E38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +436,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CalcComplex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.upm.CalcComplex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,7 +455,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CalcComplex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.upm.CalcComplex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
